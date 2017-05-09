@@ -1,0 +1,161 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin-top: 0px;
+}
+
+header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 10;
+  align-items: center;
+
+  display: flex;
+  flex-wrap: nowrap;
+
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: right;
+  padding-right: 20px;
+  margin-left: auto;
+
+}
+
+nav a {
+  text-align: right;
+  text-decoration: underline;
+  color: seashell;
+  padding: 0px 10px;
+}
+
+.main {
+  position: relative;
+  padding-top: 69px;
+  margin: auto;
+  z-index: 0;
+}
+
+.missioncontainer {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpeg");
+  position: relative;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.missionbanner {
+  position: relative;
+  margin: auto 0px;
+  background-color: black;
+}
+
+.missionbanner h2, h4 {
+  position: relative;
+  margin: auto auto;
+  padding: 10px 0px;
+}
+
+.featuredcontainer {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: auto;
+}
+
+.featuredbanner {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.featureditems {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured1item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.featured1item img {
+  height: 200px;
+  width: 300px;
+}
+
+.locationscontainer {
+  height: 500px;
+  width: 1200px;
+  position: relative;
+  margin: 50px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/img-locations-background.jpeg");
+}
+
+.locationscontainer h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 20px; /* could not get how to align the h2 15px above the centered items below */
+}
+
+.locationsitems {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.locations1item {
+  width: 300px;
+  background-color: black;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations1item h3, h4 {
+  opacity: 1;
+}
+
+.locations1item h4 {
+  font-size: 15px;
+}
+
+.contactcontainer {
+  height: 200px;
+  text-align: center;
+}
+
+footer {
+  margin-left: 20px;
+  text-align: left;
+}
